@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Karla;
+  overflow-x: hidden;
+}
+
+header {
+  font-family: DMSerifDisplay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 7rem;
+}
+
+.logo {
+  margin-top: 2.5rem;
+  margin-left: -17rem;
+}
+
+.nav-menu {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  background-color: hsl(270, 9%, 17%);
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.menu-services {
+  height: 35rem;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: hsl(0, 0%, 98%);
+  text-transform: uppercase;
+}
+
+.view-plans {
+  border: 2px solid hsl(0, 0%, 98%);
+  padding: 0.75rem 9rem;
+  cursor: pointer;
+}
+
+.nav-pic {
+  width: 30rem;
+  margin-top: -13rem;
+}
+
+.hamburger-menu {
+  position: absolute;
+  right: 0;
+  padding: 2rem;
+}
+
+.open {
+  cursor: pointer;
+}
+
+.intro-mobile {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+/*INTRO SECTION*/
+.intro-section {
+  background-color: hsl(256, 26%, 20%);
+  padding-bottom: 6rem;
+}
+.intro-section h1 {
+  font-family: DMSerifDisplay;
+  font-size: 3rem;
+  color: hsl(0, 0%, 98%);
+  text-align: center;
+  padding-top: rem;
+  margin-top: -7rem;
+  /* z-index: 1;*/
+}
+.intro-section p {
+  color: hsl(0, 0%, 98%);
+  text-align: center;
+  padding: 2rem;
+  line-height: 1.5;
+}
+.intro-section .left-mobile-pattern {
+  width: 50%;
+}
+.intro-section .right-mobile-pattern {
+  position: absolute;
+  right: 0;
+  top: 64rem;
+}
+
+.btn {
+  margin: auto;
+  border: none;
+  border: 2px solid;
+  display: block;
+  text-transform: uppercase;
+  padding: 1rem 4rem;
+  background-color: hsl(256, 26%, 20%);
+  color: hsl(0, 0%, 98%);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(270, 9%, 17%);
+  font-weight: 700;
+}
+
+.middle-section .horizontal-line {
+  margin: 8rem auto;
+  width: 30%;
+  color: hsl(273, 4%, 51%);
+}
+.middle-section img {
+  margin: 4rem auto;
+  display: block;
+}
+.middle-section h3 {
+  font-family: DMSerifDisplay;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: -2rem;
+}
+.middle-section p {
+  font-family: Karla;
+  font-size: 16px;
+  color: hsl(273, 4%, 51%);
+  text-align: center;
+  margin: 1rem 3rem 0;
+  line-height: 1.5;
+}
+
+.were-different {
+  font-family: DMSerifDisplay;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.how-we-work {
+  margin: 9rem auto;
+  width: 85%;
+  background-color: hsl(256, 26%, 20%);
+  padding-bottom: 5rem;
+}
+.how-we-work h2 {
+  font-family: DMSerifDisplay;
+  font-size: 3rem;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: hsl(0, 0%, 98%);
+}
+.how-we-work .how-we-work-btn {
+  display: block;
+  margin: auto;
+  padding: 1rem 3rem;
+  background-color: hsl(256, 26%, 20%);
+  color: hsl(0, 0%, 98%);
+  text-transform: uppercase;
+  border: none;
+  border: 2px solid;
+  font-weight: 400;
+  cursor: pointer;
+}
+.how-we-work .how-we-work-btn:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(270, 9%, 17%);
+  font-weight: 700;
+}
+.how-we-work img {
+  position: absolute;
+  right: 2rem;
+}
+
+footer {
+  background-color: hsl(0, 0%, 98%);
+  margin-top: 15rem;
+  padding-bottom: 2rem;
+}
+footer .footer-pattern {
+  width: 100%;
+}
+footer .social-media {
+  text-align: center;
+  margin-top: -6rem;
+}
+footer img {
+  padding-right: 1rem;
+}
+footer .bottom-logo {
+  padding-bottom: 2rem;
+}
+footer hr {
+  width: 90%;
+  margin: 3rem auto;
+  border-width: 1px;
+  color: hsl(0, 0%, 98%);
+}
+footer .bottom-menu {
+  font-family: DMSerifDisplay;
+  text-align: center;
+}
+footer h4 {
+  color: hsl(273, 4%, 51%);
+  margin: 2rem;
+  text-transform: uppercase;
+}
+footer li {
+  margin-bottom: 1rem;
+}
+footer a {
+  font-family: Karla;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: hsl(256, 26%, 20%);
+  font-weight: 700;
+}
+
+.left-desktop-pattern {
+  display: none;
+}
+
+.right-desktop-pattern {
+  display: none;
+}
+
+.intro-desktop {
+  display: none;
+}
+
+.how-we-desktop {
+  display: none;
+}
+
+.footer-desktop-pattern {
+  display: none;
+}
+
+.h-line {
+  display: none;
+}
+
+/*
+*? -----------------DESKTOP SECTION-------------
+*/
+@media screen and (min-width: 768px) {
+  header {
+    justify-content: center;
+  }
+  .logo {
+    margin-left: -55rem;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    overflow-x: hidden;
+  }
+  .nav-menu li a {
+    color: hsl(273, 4%, 51%);
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .menu-nav:hover {
+    color: hsl(270, 9%, 17%);
+  }
+  .menu-services {
+    display: flex;
+    margin-left: 45rem;
+    margin-top: -1rem;
+    gap: 2rem;
+  }
+  .view-plans {
+    padding: 0.5rem;
+    border: 2px solid hsl(256, 26%, 20%);
+  }
+  .view-plans:hover {
+    background-color: black;
+    color: hsl(0, 0%, 98%);
+  }
+  .nav-pic {
+    display: none;
+  }
+  /* ------BELOW THE HEADER-------*/
+  .intro-section {
+    z-index: 1;
+    position: absolute;
+    top: 7rem;
+    width: 100%;
+    height: 30rem;
+  }
+  .intro-mobile {
+    display: none;
+  }
+  .intro-desktop {
+    width: 440px;
+    margin-left: 46rem;
+    margin-top: 5rem;
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+  .intro-section .intro-humanizing {
+    margin-left: 2rem;
+  }
+  .h-line {
+    display: block;
+    color: white;
+    margin: 4rem 10rem;
+    width: 9rem;
+  }
+  .intro-humanizing h1 {
+    margin-left: 7rem;
+    margin-top: 3rem;
+    text-align: left;
+  }
+  .intro-section p {
+    text-align: left;
+    margin-left: 5rem;
+    width: 35rem;
+  }
+  .btn {
+    margin-left: 7rem;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(270, 9%, 17%);
+    font-weight: 700;
+  }
+  .left-desktop-pattern {
+    display: block;
+    margin-top: -18rem;
+    position: relative;
+    z-index: 3;
+  }
+  .right-desktop-pattern {
+    display: block;
+    position: absolute;
+    right: -1rem;
+    top: 7rem;
+    width: 19rem;
+    z-index: 3;
+  }
+  .left-mobile-pattern {
+    display: none;
+  }
+  .right-mobile-pattern {
+    display: none;
+  }
+  /*--------MIDDLE SECTION-----------*/
+  .horizontal-line {
+    width: 10rem;
+    margin-left: 10rem;
+    color: hsl(0, 0%, 98%);
+  }
+  .were-different {
+    font-family: DMSerifDisplay;
+    font-size: 3rem;
+    padding: 3rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    text-align: left;
+  }
+  .middle-section {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .middle-section img {
+    width: 4rem;
+  }
+  .snappy-process {
+    width: 100%;
+    text-align: left;
+  }
+  .snappy-process img {
+    margin-left: 9rem;
+  }
+  .middle-section h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 9rem;
+  }
+  .middle-section p {
+    font-size: 0.85rem;
+    text-align: left;
+    margin-left: 9rem;
+  }
+  .affordable-prices {
+    width: 100%;
+  }
+  .affordable-prices img {
+    margin-left: 5rem;
+  }
+  .affordable-prices h3 {
+    margin-left: 5rem;
+  }
+  .affordable-prices p {
+    margin-left: 5rem;
+  }
+  .people-first {
+    width: 100%;
+  }
+  .people-first img {
+    margin-left: 3rem;
+  }
+  .people-first h3 {
+    margin-left: 4rem;
+  }
+  .people-first p {
+    margin-left: 4rem;
+  }
+  /*------------------HOW WE WORK SECTION---------*/
+  .how-we-work {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    height: 15.8rem;
+  }
+  .find-out {
+    width: 43%;
+    margin: -1rem 0;
+  }
+  .find-out h2 {
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .work-btn {
+    margin-top: 7rem;
+    margin-left: 15rem;
+  }
+  .how-we-work-btn {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+  .how-we-mobile {
+    display: none;
+  }
+  .how-we-desktop {
+    display: block;
+    width: 33%;
+    margin-right: 4.1rem;
+    margin-top: 0.1rem;
+  }
+  /*---------FOOTER SECTION------------*/
+  .footer-pattern {
+    display: none;
+  }
+  .footer-desktop-pattern {
+    display: block;
+  }
+  footer .social-media {
+    width: 86%;
+    margin: -11rem auto;
+    display: flex;
+    flex-direction: row;
+    gap: 51rem;
+    cursor: pointer;
+  }
+  .fa-brands {
+    font-size: 29px;
+    color: gray;
+    transition: color 0.5s ease;
+  }
+  .fa-brands:hover {
+    color: black;
+  }
+  .brands {
+    display: flex;
+    gap: 1rem;
+  }
+  .bottom-line {
+    margin-top: 11rem;
+    width: 85%;
+  }
+  .bottom-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1rem;
+    padding: 0;
+    list-style: none;
+    width: 85%;
+    padding-bottom: 1rem;
+  }
+  .our-company {
+    padding-left: 2.5rem;
+  }
+  .bottom-menu {
+    width: 25%;
+  }
+  .bottom-menu li {
+    list-style: none;
+  }
+  .bottom-menu ul {
+    text-align: left;
+    padding-left: 6.5rem;
+  }
+  .help-me {
+    padding-left: 0.75rem;
+  }
+}/*# sourceMappingURL=style.css.map */
